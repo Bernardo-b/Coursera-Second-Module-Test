@@ -1,0 +1,72 @@
+* {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+section h1 {
+  background-color: white;
+  text-align: right;
+  padding: 5px;
+  color: black;
+}
+section p {
+  padding: 5px;
+}
+section {
+  box-sizing: border-box;
+  margin: 2.5%;
+  border: 1px solid #c1c1c1;
+}
+h1.hamburguer {
+  background-color: white;
+  }
+
+p.hamburguer {
+  background-color: #cbc6ff;
+}
+
+p.pizza {
+  background-color: #ff8181;
+}
+
+p.sushi {
+  background-color: #a5ffb3;
+}
+.row{
+  width: 100%
+}
+
+@media (min-width: 992px) {
+  .col-lg-4{
+    float: left;
+  }
+  .col-lg-4{
+    width: 28%;
+    float: left;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .col-md-6, .col-md-12{
+    float: left;
+  }
+  .col-md-6{
+    width: 45%
+  }
+  .col-md-12{
+    width: 95%
+  }
+}
+@media (max-width: 766px) {
+  .col-sm-12{
+    float: left;
+  }
+  .col-sm-12{
+    width: 100%
+  }
+}
